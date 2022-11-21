@@ -35,8 +35,8 @@ web.get('https://kyfw.12306.cn/otn/resources/login.html')
 
 # 输入账户密码
 
-web.find_element(By.XPATH, '//*[@id="J-userName"]').send_keys('15683836173')
-web.find_element(By.XPATH, '//*[@id="J-password"]').send_keys('dhh20000105')
+web.find_element(By.XPATH, '//*[@id="J-userName"]').send_keys('XXXXXXXXXXXX')
+web.find_element(By.XPATH, '//*[@id="J-password"]').send_keys('XXXXXXXXXXXX')
 
 # 点击登录
 web.find_element(By.XPATH, '//*[@id="J-login"]').click()
